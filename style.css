@@ -1,0 +1,127 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section{
+	max-width: 800px;
+	margin: auto;
+}
+
+#login{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: white;
+	font-family: Maitree;
+	margin: 0;
+}
+
+.imageform img{
+	width: 396px;
+	height: 598px;
+}
+
+.imageform, form{
+	width: 400px;
+	margin: auto;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+	gap: 20px;
+}
+
+form p{
+	font-size: 40px;
+}
+
+#pseudo{
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#email, #pass, #confirmation{
+	width: 307px;
+	height: 54px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#button{
+	width: 307px;
+	height: 63px;
+	border-radius: 70px;
+	border: none;
+	background-color: #EBBDBD;
+	font-family: Maitree;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#inscription{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+span{
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	font-size: 25px;
+	transition: 1s;
+}
+
+input:required:focus:invalid{
+	border: dashed 4px red;
+}
+
+input:required:focus:valid{
+	border: solid 4px green;
+}
+
+textarea:required:focus:invalid{
+	border: dashed 4px red;
+}
+
+textarea:required:focus:valid{
+	border: solid 4px green;
+}
+
+#error{
+	display: block;
+}
+
+#errormail{
+	font-size: 15px;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

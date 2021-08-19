@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.button{
+	background-color: #0E707C;
+	border: none;
+	border-radius: 30px;
+	position: relative;
+	width: 125px;
+	height: 40px;
+	font-family: Maitree;
+	font-size: 15px;
+	margin: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	margin: 15px;
+}
+
+h2{
+	text-align: center;
+	padding: 25px;
+	font-family: Maitree;
+}
+
+#img{
+	width: 60%;
+	margin: auto;
+}
+
+img{
+	width: 100%;
+}
+
+#bienvenue, #deconnexion{
+	width: 300px;
+	text-align: center;
+	margin: auto;
+	font-family: Maitree;
+}
+
+
+span{
+	font-weight: bold;
+}
